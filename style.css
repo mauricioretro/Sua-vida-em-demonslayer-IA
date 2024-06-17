@@ -1,0 +1,51 @@
+:root{
+  --cor-fundo: #aa0404 ;
+  --cor-principal: #03295a ;
+  --cor-secundaria: #d13e04;
+  --cor-destaque: #160a31;
+  --cor-texto: #000000;
+
+
+}
+
+
+body {
+  background-color: var(--cor-fundo);
+  background-image: url(https://www.hindustantimes.com/ht-img/img/2024/02/08/1600x900/Demon_Slayer_Hashira_Training_Arc_movie_1707390806703_1707390857734.jpg);
+  background-size: contain;
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.caixa-principal{
+  background-color: var(--cor-principal);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+h1{
+  color: var(--cor-destaque);
+}
+
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+
+button:hover{
+  background-color: var(--cor-destaque);
+  color: var(--cor-principal);
+}
